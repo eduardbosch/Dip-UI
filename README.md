@@ -67,7 +67,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         controller.service    = try container.resolve() as MyViewControllerService
       }
       
-      DependencyContainer.uiContainers = [container]
+    DependencyContainer.uiContainers = [container]
   }
 }
 ```
